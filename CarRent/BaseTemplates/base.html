@@ -1,0 +1,62 @@
+{% load static %}
+<html>
+   <head>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Home</title>
+     <link rel="icon" href="{% static 'images/logo.png' %}" />
+     <link href="{% static 'style/style.css' %}" rel="stylesheet" >
+     <link href="{% static 'style/bootstrap.min.css' %}" rel="stylesheet" media="screen">
+     <link href="{% static 'style/bootstrap-datetimepicker.min.css' %}" rel="stylesheet" media="screen">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+     <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+      <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="{% static 'js/bootstrap-datetimepicker.js' %}" charset="UTF-8"></script>
+     <script type="text/javascript" src="{% static 'js/bootstrap-datetimepicker.fr.js' %}" charset="UTF-8"></script>
+     <script src="{% static 'js/main.js' %}"></script>
+   </head>
+   {% block content %}{% endblock %}
+
+
+    <section id="support-hot">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <div class="col-sm-4" id="help-box">
+              <p id="helpline">Contact Us</p>
+              <p id="helpline-num">Feel free to ask anything</p>
+            </div>
+            <div class="col-sm-4" id="help-box">
+              <p id="helpline">Phone</p>
+              <p id="helpline-num">WhatsApp Us : (+60)1235322</p>
+            </div>
+            <div class="col-sm-4" id="help-box">
+              <p id="helpline">Email</p>
+              <p id="helpline-num">Email Us : Carrent@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="footer">
+       <p id="footer-text">
+         Copyright © 2017 Sheikh Developer - All Rights Reserved.
+       </p>
+    </section>
+
+
+   </body>
+</html>

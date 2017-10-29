@@ -1,0 +1,1135 @@
+*{
+  margin: 0px !important;
+  padding: 0px !important;
+}
+#header{
+  background-image: url('../images/back1.jpg');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  height: 800px;
+}
+#search-page{
+  background-image: url('../images/back1.jpg');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  height: 800px;
+}
+/*********************************
+    Menu part
+********************************/
+#menu ul li{
+  letter-spacing: 2px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #fff;
+  list-style: none;
+  font-weight: 700;
+  font-family: 'Josefin Slab', serif;
+  cursor: pointer;
+}
+#logo-part li{
+  padding-top: 20px !important;
+  float: left;
+}
+ul#menu-part li a{
+  text-decoration: none;
+  color: #fff;
+}
+ul#menu-part {
+    padding-right: 50px !important;
+}
+#menu-part li {
+    padding-top: 40px !important;
+    padding-right: 42px !important;
+    float: right;
+    font-size: 16px;
+}
+ul#logo-part {
+      padding-left: 10% !important;
+}
+#menu-part li{
+  float: right;
+}
+img#logo-img {
+    width: 160px;
+}
+/*********************************
+    Search tabel
+********************************/
+#first-table {
+    background-color: rgba(0, 0, 0, 0.88) !important;
+}
+section#search-tabel {
+    position: absolute;
+    padding-top: 12% !important;
+    padding-left: 10% !important;
+    color: #fff;
+}
+#full-input {
+    margin-bottom: 20px !important;
+    width: 150%;
+}
+#full-input {
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    margin-left: 36px !important;
+    height: 34px;
+    margin-bottom: 20px !important;
+    width: 138%;
+    border: 0px ;
+    border-bottom: 1px solid #a2a2a2 !important;
+}
+#full-input1 {
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #a09696;
+    border-radius: 5px;
+    margin-top: 20px !important;
+    margin-left: 36px !important;
+    height: 34px;
+    margin-bottom: 20px !important;
+    width: 138%;
+    border: 0px ;
+    border-bottom: 1px solid #a2a2a2 !important;
+}
+input.form-control {
+    color: #fff;
+    font-size: 13px !important;
+}
+input#half-input {
+    border-radius: 5px;
+    margin-top: 20px !important;
+    width: 67%;
+    margin-left: 33px !important;
+    margin-bottom: 20px !important;
+    height: 30px;
+    border-bottom: 1px solid #a2a2a2;
+    color: #fff;
+}
+input#half-input1 {
+    border-radius: 5px;
+    margin-top: 20px !important;
+    width: 101%;
+    margin-right: 11px !important;
+    margin-left: -13px !important;
+    margin-bottom: 20px !important;
+    height: 30px;
+    border-bottom: 1px solid #a2a2a2;
+    color: #fff;
+}
+div#date-up {
+    margin-left: 13% !important;
+    margin-top: 10% !IMPORTANT;
+    width: 150%;
+}
+div#date-up1 {
+    margin-left: -23% !important;
+    margin-top: 13% !IMPORTANT;
+    width: 290%;
+}
+p#tabel-titel {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 20px !important;
+  margin-left: 13% !IMPORTANT;
+  font-size: 27px;
+  color: #fff;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 700;
+}
+button#full-button {
+    margin-left: 65% !important;
+    width: 148px;
+    height: 36px;
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+}
+label#input-name {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #d0c6c6;
+    margin-top: 5% !IMPORTANT;
+    margin-left: 13% !important;
+    margin-bottom: -5% !important;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+label#input-name1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #d0c6c6;
+    margin-top: 5% !IMPORTANT;
+    margin-left: -5% !important;
+    margin-bottom: -5% !important;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+button#full-button {
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgba(68, 70, 65, 0.6);
+    margin-left: 50% !important;
+    width: 200px;
+    height: 45px;
+    font-size: 15px;
+    margin-top: 10px !important;
+    margin-bottom: 30px !important;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: 'Libre Baskerville', serif;
+}
+button#full-button a {
+  color: #fff;
+  text-decoration: none;
+}
+/****************************************
+            search-part
+*****************************************/
+section#car-part-search {
+      width: 100%;
+  position: absolute;
+  z-index: 2000;
+  height: auto;
+  background-color: #e6e2e2;
+}
+#header-search{
+  background-image: url('../images/back1.jpg');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  height: 100px;
+}
+p#search-result {
+    padding-top: 50px !important;
+    font-size: 28px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    border-bottom: 5px solid #272525;
+    padding-bottom: 20px !important;
+    width: 90%;
+    margin-left: 46px !important;
+}
+#cancle-more-car {
+    margin-right: 68% !IMPORTANT;
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-left: -5% !important;
+    background-color: green;
+    padding-left: 93px !important;
+    padding-right: 50px !important;
+    padding-top: 15px !IMPORTANT;
+    padding-bottom: 15px !important;
+    color: white;
+    cursor: pointer;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+}
+div#button-group {
+    height: 64px;
+  }
+/***********************************
+    Mobile tabel
+***********************************/
+section#search-tabel1 {
+    position: absolute;
+    padding-top: 130px !important;
+    padding-left: 10% !important;
+    color: #fff;
+    display: none;
+}
+#full-input-mobile {
+  border-radius: 5px;
+    margin-top: 20px !important;
+    margin-left: 36px !important;
+    height: 34px;
+    width: 75%;
+    background-color: transparent;
+    border-bottom: 1px solid #a2a2a2 !important;
+    color: #fff;
+    text-transform: uppercase;
+}
+#full-input1-mobile {
+  border-radius: 5px;
+    margin-top: 20px !important;
+    margin-left: 36px !important;
+    height: 34px;
+    width: 80%;
+    background-color: transparent;
+    border: 0px !important;
+    border-bottom: 1px solid #2f2d2d;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #a09696;
+}
+#date-up-mobile{
+  margin-left: 13% !important;
+  margin-top: 10% !IMPORTANT;
+  width: 175%;
+  margin-bottom: -5% !important;
+}
+div#date-up1-mobile {
+    margin-left: 13% !important;
+    margin-top: 13% !IMPORTANT;
+    width: 180%;
+    margin-bottom: -8% !important;
+}
+label#input-name1-mobile {
+    color: #d0c6c6;
+    margin-top: 5% !IMPORTANT;
+    margin-left: 13% !important;
+    margin-bottom: -10% !important;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+input#half-input-mobile {
+   color: #fff;
+  border-radius: 5px;
+    margin-top: 20px !important;
+    width: 78%;
+    margin-left: 38px !important;
+    height: 35px;
+    background-color: transparent;
+    border-bottom: 1px solid #2f2d2d;
+}
+input#half-input1-mobile {
+  border-radius: 5px;
+    margin-top: 38px !important;
+    width: 78%;
+    margin-left: 40px !important;
+    height: 35px;
+    background-color: transparent;
+    border-bottom: 1px solid #2f2d2d;
+    color: #fff;
+}
+button#full-button1 {
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: #545050;
+    margin-left: 25% !important;
+    width: 160px;
+    height: 37px;
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+    color: #fff;
+}
+/*****************************************
+            sub-menu
+******************************************/
+section#second-menu-bar {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+}
+.side-menu-singup {
+    position: inherit;
+    border-radius: 8px;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 40px !important;
+    border: 0px;
+    background-color: transparent;
+    width: 55px;
+    height: 42px;
+    color: white;
+    top: -5px !important;
+    z-index: 100;
+    transition: all 0.3s;
+    margin-left: 89% !important;
+}
+.side-menu-singup1 {
+    position: inherit;
+    border-radius: 8px;
+    font-size: 33px;
+    font-weight: 600;
+    margin-top: -72px !important;
+    border: 0px;
+    background-color: transparent;
+    width: 55px;
+    height: 42px;
+    color: white;
+    top: 105px !important;
+    z-index: 100;
+    display: none;
+    transition: all 0.3s;
+    margin-left: 89% !important;
+}
+#side-menu {
+    height: -webkit-fill-available;
+    position: absolute;
+    display: none;
+    background-color: #35536f;
+    width: 80%;
+    z-index: 10;
+    transition-property: width;
+    transition-duration: 5s;
+    transition-delay: 2s;
+}
+li#sub-menu-box {
+    height: 75px;
+    transition:  2s;
+    background-color: #35536f;
+    border-bottom: 1px solid #bbc5c0;
+}
+li#sub-menu-box:hover {
+    background-color: #2a455b;
+    border-bottom: 1px solid #2a7955;
+}
+a#car-name1 {
+    position: absolute;
+    text-decoration: none;
+    padding-top: 20px !important;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Josefin Slab', serif;
+    margin-left: 20px !important;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+/**************************************
+              order-car-part
+**************************************/
+#header-order{
+  background-image: url('../images/back1.jpg');
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  height: 100px;
+}
+#car-part-car-name-order{
+  letter-spacing: 3px;
+  margin-left: 15% !important;
+  font-size: 40px;
+  margin-top: 60px !important;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+div#car-text-part-order{
+    padding-left: 15% !IMPORTANT;
+    margin-top: 7% !important;
+    border-right: 2px solid black;
+    height: 200px;
+}
+p#car-text-part-order{
+    margin-top: 8% !important;
+    font-weight: 700;
+    font-family: 'Josefin Slab', serif;
+    text-transform: uppercase;
+    margin-left: -48% !important;
+    letter-spacing: 3px;
+    font-size: 19px;
+    padding-top: 12px !important;
+}
+#simple-icon-order{
+    font-size: 30px !important;
+    padding: 15px !important;
+}
+th#simple-text-order {
+    font-weight: 700;
+    font-family: 'Josefin Slab', serif;
+    text-transform: uppercase;
+    padding-left: 20px !important;
+}
+#icon-group-order{
+    margin-top: 3% !important;
+    width: 45% !important;
+    margin-left: 30% !important;
+}
+img#car-id-name-order {
+  width: 450px;
+  height: 300px;
+}
+#delae-img-order-page{
+  margin-top: 95px !IMPORTANT;
+    height: 250px;
+    width: 65%;
+    margin-left: 18% !important;
+    margin-bottom: 80px !important
+}
+#address-phn-order-page{
+  margin-top: 76px !important;
+    width: 22% !important;
+    margin-left: 23px !important;
+}
+
+/************************************
+        Car body part
+*************************************/
+p#car-choose-title {
+    padding-top: 50px !important;
+    font-size: 30px;
+    padding-left: 30px !IMPORTANT;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    margin-bottom: 2px solid black;
+    padding-bottom: 20px !important;
+    border-bottom: 2px solid black;
+    width: 90%;
+    margin-left: 20px !important;
+}
+img#car-id-name {
+  width: 230px;
+  height: 150px;
+}
+div#car-text-part {
+    padding-left: 7% !IMPORTANT;
+    margin-top: 7% !important;
+    border-right: 2px solid black;
+    height: 200px;
+}
+div#car-text-part1 {
+    padding-left: 7% !IMPORTANT;
+    margin-top: 7% !important;
+}
+p#car-part-car-name {
+  letter-spacing: 3px;
+  margin-left: 15% !important;
+  font-size: 20px;
+  margin-top: 60px !important;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+#icon-group{
+  margin-top: 3% !important;
+    width: 45% !important;
+    margin-left: 15% !important;
+}
+a.waves-effect.waves-light.btn {
+    width: 135px !important;
+    height: 44px;
+    margin-left: -26% !important;
+}
+p#car-text-part {
+    font-weight: 700;
+    font-family: 'Josefin Slab', serif;
+    text-transform: uppercase;
+    margin-left: -24% !important;
+    letter-spacing: 3px;
+    font-size: 15px;
+    padding-top: 12px !important;
+}
+th#simple-icon {
+    padding: 5px !important;
+}
+th#simple-text{
+  font-weight: 700;
+  font-family: 'Josefin Slab', serif;
+  text-transform: uppercase;
+  padding: 5px !important;
+}
+div#side-part2 {
+    margin-bottom: 63px !important;
+}
+.car-part-hidden{
+  display: none;
+}
+.car-part-hidden1{
+  display: none;
+}
+.car-part-hidden2{
+  display: none;
+}
+#see-more-car {
+  margin-bottom: 10px !important;
+  margin-right: 15% !important;
+  letter-spacing: 2px;
+  text-decoration: none;
+  margin-left: 47% !important;
+  background-color: green;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  padding-top: 15px !IMPORTANT;
+  padding-bottom: 15px !important;
+  color: white;
+  cursor: pointer;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+}
+#see-more-car1 {
+  margin-bottom: 10px !important;
+  margin-right: 15% !important;
+  letter-spacing: 2px;
+  text-decoration: none;
+  margin-left: 47% !important;
+  background-color: green;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  padding-top: 15px !IMPORTANT;
+  padding-bottom: 15px !important;
+  color: white;
+  cursor: pointer;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+}
+#see-more-car2 {
+  margin-bottom: 10px !important;
+  margin-right: 15% !important;
+  letter-spacing: 2px;
+  text-decoration: none;
+  margin-left: 47% !important;
+  background-color: green;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  padding-top: 15px !IMPORTANT;
+  padding-bottom: 15px !important;
+  color: white;
+  cursor: pointer;
+  font-family: 'Josefin Slab', serif;
+  font-size: 20px;
+}
+#car-part-search{
+  display: none;
+}
+/**************************************
+              Offer Details
+**************************************/
+section#car-offer {
+    margin-top: 2% !important;
+    margin-bottom: 2% !important;
+}
+p#offer-car-name {
+   padding-top: 14px !important;
+   letter-spacing: 3px;
+   font-family: 'Josefin Slab', serif;
+   font-weight: 700;
+    margin-left: 10% !important;
+    font-size: 20px;
+}
+img#offer-img {
+    width: 200px;
+}
+p#offer-title {
+  padding-left: 30px !important;
+  letter-spacing: 3px;
+  font-size: 40px;
+  margin-left: 1% !important;
+  margin-top: 5% !important;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 700;
+  width: 96%;
+  border-bottom: 2px solid black;
+  padding-bottom: 20px !important;
+}
+p#car-delar-titel {
+padding-left: 30px !important;  
+  letter-spacing: 3px;
+font-size: 35px !important;
+margin-left: 20px !important;
+margin-bottom: 35px !important;
+font-family: 'Josefin Slab', serif;
+font-weight: 700;
+border-bottom: 2px solid black;
+width: 96%;
+padding-bottom: 25px !important;
+}
+div#offer-body {
+    width: 23%;
+    padding-left: % !important;
+    margin-left: 3% !important;
+    margin-right: -2.4% !important;
+    padding-bottom: 3% !important;
+    padding-top: 3% !important;
+}
+p#offer-text-body {
+    font-size: 16px;
+    margin-top: 0% !IMPORTANT;
+    margin-left: 10% !important;
+}
+p#offer-text-body2 {
+    font-size: 16px;
+    margin-top: 4% !IMPORTANT;
+    margin-left: 20% !important;
+}
+#old-price{
+  text-decoration: line-through;
+    color: black;
+    font-size: 16px;
+    margin-top: 4% !IMPORTANT;
+}
+#new-price {
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+    padding-left: 10px !important;
+}
+.offer-order-button {
+    background-color: green;
+    margin-left: 18% !IMPORTANT;
+    margin-top: 11% !important;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding-bottom: 10px !important;
+    padding-top: 10px !IMPORTANT;
+    width: 140px;
+    padding-left: 33px !important;
+    font-weight: 700;
+}
+#offer-order-link{
+   text-decoration: none;
+   color: #fff;
+   font-weight: 800;
+}
+/*************************************
+             car delar
+**************************************/
+img#delae-img {
+    height: 250px;
+    width: 65%;
+    margin-left: 16% !important;
+    margin-bottom: 80px !important;
+}
+#delar-name {
+    letter-spacing: 2px;
+    padding-top: 5% !important;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px !IMPORTANT;
+}
+#list-id {
+    color: green;
+    font-size: 20px;
+    padding-top: 20px !important;
+}
+#delar-address {
+    padding-left: 10px !important;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: 'Josefin Slab', serif;
+    padding-top: 17px !important;
+}
+div#address-phn {
+    width: 22% !important;
+    margin-left: 23px !important;
+}
+button#delar-button {
+    letter-spacing: 3px;
+    background-color: green;
+    padding-left: 50px !important;
+    padding-bottom: 8px !important;
+    padding-top: 8px !important;
+    margin-top: 20px !important;
+    padding-right: 50px !important;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+}
+a#see-more-delar {
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-left: 43% !important;
+    background-color: green;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-top: 15px !IMPORTANT;
+    padding-bottom: 15px !important;
+    color: white;
+    cursor: pointer;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+}
+.delar-hide{
+  display: none ;
+}
+/***************************************
+            Support
+***************************************/
+section#support-hot {
+    margin-top: 12% !important;
+    margin-bottom: 12% !important;
+}
+p#helpline {
+  margin-bottom: 35px !important;
+  margin-left: 34% !important;
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+p#helpline-num {
+    letter-spacing: 4px;
+    margin-left: 25% !important;
+}
+div#help-box {
+    padding-bottom: 27px !important;
+    border-bottom: 1px solid black;
+    width: 28%;
+    margin-left: 4% !important;
+}
+div#help-box:hover {
+    border-bottom: 3px solid green;
+    transition: 2s;
+    transform: rotateX(2);
+    transform-style: flat;
+}
+/**************************************
+                Footer
+**************************************/
+section#footer {
+    margin-top: 25px !important;
+    height: 45px;
+    background-color: black;
+}
+p#footer-text {
+    padding-top: 10px !important;
+    padding-left: 10% !important;
+    color: white;
+}
+/**************************************
+              Media
+**************************************/
+@media screen and (max-width: 1500px)
+{
+img#car-id-name {
+    width: 200px;
+    height: 127px;
+}
+a.waves-effect.waves-light.btn {
+    background-color: #2e7b32;
+    width: 100px !important;
+    height: 40px;
+    margin-left: -26% !important;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+}
+@media screen and (max-width: 1200px) {
+  img#car-id-name {
+   width: 250px;
+   height: 150px;
+}
+div#car-text-part {
+    padding-left: 8% !IMPORTANT;
+    margin-top: 10% !important;
+  }
+div#car-text-part1 {
+      padding-left: 8% !IMPORTANT;
+      margin-top: 10% !important;
+    }
+p#car-text-part {
+        text-transform: uppercase;
+        margin-left: -24% !important;
+        letter-spacing: 2px;
+        font-size: 11px !important;
+        padding-top: 12px !important;
+    }
+    #see-more-car {
+        margin-left: 22% !important;
+      }
+      #see-more-car1 {
+          margin-left: 22% !important;
+        }
+        #see-more-car2 {
+            margin-left: 22% !important;
+          }
+      img#car-id-name-order {
+        width: 300px;
+        height: 220px;
+    }
+#car-part-car-name-order {
+        font-size: 29px;
+
+}
+div#car-text-part-order {
+    padding-left: 9% !IMPORTANT;
+    margin-top: 12% !important;
+    height: 200px;
+}
+#address-phn-order-page {
+    margin-top: 76px !important;
+    width: 22% !important;
+    margin-left: -44px !important;
+}
+#delae-img-order-page {
+    margin-top: 95px !IMPORTANT;
+    height: 250px;
+    width: 65%;
+    margin-left: 7% !important;
+    margin-bottom: 80px !important;
+}
+p#car-delar-titel {
+width: 70%;
+}
+}
+
+@media screen and (max-width: 1000px) {
+  img#car-id-name {
+      width: 210px;
+      height: 120px;
+    }
+  div#date-up {
+      margin-left: 13% !important;
+      margin-top: 10% !IMPORTANT;
+      width: 75%;
+  }
+  div#date-up1 {
+      margin-left: 13% !important;
+      margin-top: 10% !IMPORTANT;
+      width: 75%;
+  }
+  #search-tabel{
+    display: none;
+  }
+  #date-up-mobile{
+    width: 79%;
+  }
+  #date-up1-mobile{
+    width: 79% !important;
+  }
+  section#search-tabel1 {
+    display: table;
+}
+img#offer-img {
+    width: 159px;
+}
+img#delae-img {
+    margin-left: 23% !important;
+  }
+div#address-phn {
+      width: 22% !important;
+      margin-left: -17px !important;
+  }
+  #cancle-more-car {
+    margin-right: 39% !IMPORTANT;}
+}
+@media screen and (max-width: 800px) {
+  img#car-id-name {
+      margin-left: 10% !important;
+    }
+  }
+@media screen and (max-width: 900px) {
+  #menu-part{
+    display: none;
+  }
+  section#second-menu-bar {
+      display: -webkit-box;
+      position: fixed;
+  }
+  img#car-id-name {
+    width: 150px;
+     height: 100px;
+}
+div#car-text-part {
+    padding-left: 5% !IMPORTANT;
+    margin-top: 5% !important;
+}
+div#car-text-part1 {
+    padding-left: 5% !IMPORTANT;
+    margin-top: 5% !important;
+}
+p#car-part-car-name {
+    margin-top: 30px !important;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+  #icon-group {
+  margin-top: 3% !important;
+  width: 45% !important;
+  margin-left: 15% !important;
+}
+div#car-text-part {
+    padding-left: 32% !IMPORTANT;
+    border: 0px !important;
+}
+div#car-text-part1 {
+    padding-left: 32% !IMPORTANT;
+}
+#side-part2{
+  margin-top: -5% !important;
+}
+}
+@media screen and (max-width: 600px) {
+  .side-menu-singup {
+      margin-left: 78% !important;
+  }
+  .side-menu-singup1 {
+      margin-left: 78% !important;
+  }
+  p#car-part-car-name {
+    padding-top: 10px !important;
+    margin-top: 20px !important;
+}
+#see-more-car {
+    text-decoration: none;
+    margin-left: 9% !important;
+  }
+  #see-more-car1 {
+      text-decoration: none;
+      margin-left: 9% !important;
+    }
+    #see-more-car2 {
+        text-decoration: none;
+        margin-left: 9% !important;
+      }
+  p#car-delar-titel {
+      padding-top: 30px !important;
+      letter-spacing: 3px;
+      font-size: 25px !important;
+      margin-left: 30px !important;
+      margin-bottom: 35px !important;
+      font-family: 'Josefin Slab', serif;
+      font-weight: 700;
+  }
+  img#delae-img {
+    height: 250px;
+    width: 65%;
+    margin-left: 6% !important;
+  }
+  button#delar-button {
+    margin-left: -20px !important;
+    margin-bottom: 20px !important;
+}
+div#address-phn {
+    width: 90% !important;
+  }
+  a#see-more-delar {
+    letter-spacing: 2px;
+    text-decoration: none;
+    margin-left: 9% !important;
+padding-left: 15px !important;
+padding-right: 15px !important;
+  }
+}
+@media screen and (max-width: 450px) {
+  section#search-tabel1 {
+      padding-left: 0% !important;
+  }
+  #icon-group {
+  margin-top: 3% !important;
+  width: 45% !important;
+  margin-left: 19% !important;
+}
+div#car-text-part {
+    margin-left: 10px !important;
+    width: 90%;
+    height: 130px;
+    border-bottom: 2px solid black !IMPORTANT;
+    padding-left: 30% !IMPORTANT;
+    margin-bottom: 100px !important;
+}
+div#car-text-part1 {
+  margin-left: 10px !important;
+  width: 90%;
+  height: 130px;
+  border-bottom: 2px solid black !IMPORTANT;
+  padding-left: 35% !IMPORTANT;
+  margin-bottom: 100px !important;
+}
+#side-part2{
+  margin-top: -25% !important;
+}
+img#delae-img {
+    margin-left: 10% !important;
+  }
+div#address-phn {
+      margin-left: 30px !important;
+  }
+  p#offer-title {
+    letter-spacing: 3px;
+    font-size: 30px;
+    margin-left: 6% !important;
+    margin-top: 20% !important;
+    width: 70%;
+  }
+  div#help-box {
+      padding-bottom: 27px !important;
+      border-bottom: 1px solid black;
+      width: 90%;
+      margin-left: 4% !important;
+      margin-right: 4% !important;
+      margin-bottom: 10px !important;
+  }
+  a#see-more-delar {
+    margin-left: 10% !important;
+  }
+  p#helpline {
+    margin-bottom: 35px !important;
+    margin-left: 24% !important;
+  }
+  section#footer {
+      height: auto;
+      background-color: black;
+  }
+  p#search-result {
+      padding-top: 50px !important;
+      width: 70%;
+  }
+  p#car-delar-titel {
+  width: 70%;
+  }
+  section#car-part-search {
+        width: 100%;
+      }
+  #cancle-more-car {
+    font-size: 20px;
+    margin-top: 20px !important;
+        margin-right: 3% !IMPORTANT;
+  }
+#see-more-car {
+    margin-left: 3% !important;
+    margin-right: 3% !important;
+    font-size: 21px;
+    margin-top: -31% !IMPORTANT;
+  }
+  #see-more-car1 {
+      margin-left: 3% !important;
+      margin-right: 3% !important;
+      font-size: 21px;
+      margin-top: -31% !IMPORTANT;
+    }
+    #see-more-car2 {
+        margin-left: 3% !important;
+        margin-right: 3% !important;
+        font-size: 21px;
+        margin-top: -31% !IMPORTANT;
+      }
+
+
+  div#button-group {
+    height: 150px;
+}
+#car-part-car-name-order {
+    margin-left: 10% !IMPORTANT;
+  }
+img#car-id-name-order {
+    width: 260px;
+    height: 200px;
+}
+#icon-group-order {
+    margin-left: 7% !important;
+  }
+div#car-text-part-order {
+      padding-left: 41% !IMPORTANT;
+      margin-top: 0% !important;
+      height: 18px;
+    }
+#delae-img-order-page {
+        margin-top: 95px !IMPORTANT;
+        height: 250px;
+        width: 65%;
+        margin-left: 7% !important;
+        margin-bottom: 40px !important;
+    }
+#address-phn-order-page {
+        margin-top: 10px !important;
+        width: 87% !important;
+        margin-left: 20px !important;
+    }
+}
