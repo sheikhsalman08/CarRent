@@ -1,0 +1,37 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+{% load static %}
+{% for i in SearchResult %}
+<div class="col-sm-2">
+   <p id="car-part-car-name">Perodua Myvi </p>
+   <!-- <img src="{% static 'images/myvi.png' %}" id="car-id-name"/> -->
+   <table id="icon-group">
+     <tbody>
+       <tr>
+         <th id="simple-icon"><i class="fa fa-user" aria-hidden="true"></i></th>
+         <th id="simple-icon"><i class="fa fa-car" aria-hidden="true"></i></th>
+         <th id="simple-icon"><i class="fa fa-sun-o" aria-hidden="true"></i></th>
+         <th id="simple-icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></th>
+       </tr>
+       <tr>
+         <th id="simple-text"><p>5</p></th>
+         <th id="simple-text"><p>Auto</p></th>
+         <th id="simple-text"><p>A/C</p></th>
+         <th id="simple-text"><p>5</p></th>
+       </tr>
+     </tbody>
+   </table>
+ </div>
+ <div class="col-sm-2" id="car-text-part">
+   <a class="waves-effect waves-light btn">Order</a>
+   <p id="car-text-part">Rm 10.00/Hour</p>
+   <p id="car-text-part">Rm 80.00/Day</p>
+ </div>
+ {% empty %}
+ nai kicu
+{% endfor %}
+<!-- <form method="post">
+{% csrf_token %}
+<input type='text' name="location"/>
+<input type='text' name="model"/>
+<button>i</button>
+</form> -->
