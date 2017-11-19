@@ -19,12 +19,13 @@ from django.conf.urls.static import static
 
 from django.conf.urls import url
 from django.contrib import admin
-from home.views import home,search
+from home.views import home,search,SingleCar
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', home, name='home'),
-    url(r'^search/$', search, name='search')
+    url(r'^search/$', search, name='search'),
+    url(r'^car/(?P<pk>[-\w]+)/$', SingleCar.as_view(), name='SingleCar'),
 ]
 
 if settings.DEBUG:

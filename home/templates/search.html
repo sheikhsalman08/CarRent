@@ -1,9 +1,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 {% load static %}
-{% for i in SearchResult %}
+{% for obj in SearchResult %}
 <div class="col-sm-2">
    <p id="car-part-car-name">Perodua Myvi </p>
-   <!-- <img src="{% static 'images/myvi.png' %}" id="car-id-name"/> -->
+   <img src="{{ obj.image.url }}" id="car-id-name"/>
    <table id="icon-group">
      <tbody>
        <tr>
@@ -22,9 +22,9 @@
    </table>
  </div>
  <div class="col-sm-2" id="car-text-part">
-   <a class="waves-effect waves-light btn">Order</a>
-   <p id="car-text-part">Rm 10.00/Hour</p>
-   <p id="car-text-part">Rm 80.00/Day</p>
+   <a class="waves-effect waves-light btn" href="/car/{{obj.id}}" >Order</a>
+   <p id="car-text-part">Rm {{obj.per_hour}}/Hour</p>
+   <p id="car-text-part">Rm {{obj.per_day}}/Day</p>
  </div>
  {% empty %}
  nai kicu

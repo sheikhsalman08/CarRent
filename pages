@@ -1,0 +1,3 @@
+// = home/templates/index.html
+/search = home/templates/search.html
+/car/<id> = home/templates/order.html
