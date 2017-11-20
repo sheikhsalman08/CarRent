@@ -1,0 +1,440 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+   <body>
+    <!-- google map static file begin -->
+      <link href="/static/geoposition/geoposition.css" type="text/css" media="all" rel="stylesheet" />
+      <script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyDtfJYDxVYfzFCKw9VJfvV-w4FgsH7G-JM"></script>
+      <script type="text/javascript" src="/static/geoposition/geoposition.js"></script>
+      <script type="text/javascript" src="{% static 'js/Advance_search.js' %}"></script>
+    <!-- google map static file end -->
+    <!-- search with ajax static file begin -->
+      <script type="text/javascript" src="{% static 'js/search.js' %}"></script>
+    <!-- search with ajax static file end -->
+
+     <section id="car-part-search" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">   <!-- begin car part search -->
+       <div class="container-fluid">
+         <div class="row">
+           <p id="search-result">
+             Search Result
+           </p>
+           <div class="col-sm-12 DSearchResult">
+             <!-- this place html code comign from search.html page -->
+           </div>
+           <div class="col-sm-12 car-part-hidden1">
+             <div class="col-sm-2">
+               <p id="car-part-car-name">Perodua Myvi </p>
+               <img src="images/myvi.png" id="car-id-name"/>
+               <table id="icon-group">
+                 <tbody>
+                   <tr>
+                     <th id="simple-icon"><i class="fa fa-user" aria-hidden="true"></i></th>
+                     <th id="simple-icon"><i class="fa fa-car" aria-hidden="true"></i></th>
+                     <th id="simple-icon"><i class="fa fa-sun-o" aria-hidden="true"></i></th>
+                     <th id="simple-icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></th>
+                   </tr>
+                   <tr>
+                     <th id="simple-text"><p>5</p></th>
+                     <th id="simple-text"><p>Auto</p></th>
+                     <th id="simple-text"><p>A/C</p></th>
+                     <th id="simple-text"><p>5</p></th>
+                   </tr>
+                 </tbody>
+               </table>
+             </div>
+             <div class="col-sm-2" id="car-text-part">
+               <a class="waves-effect waves-light btn">Order</a>
+               <p id="car-text-part">Rm 10.00/Hour</p>
+               <p id="car-text-part">Rm 80.00/Day</p>
+             </div>
+             <div class="col-sm-2" id="side-part2">
+               <p id="car-part-car-name">Perodua Myvi </p>
+               <img src="images/myvi.png" id="car-id-name"/>
+               <table id="icon-group">
+                 <tbody>
+                   <tr>
+                     <th id="simple-icon"><i class="fa fa-user" aria-hidden="true"></i></th>
+                     <th id="simple-icon"><i class="fa fa-car" aria-hidden="true"></i></th>
+                     <th id="simple-icon"><i class="fa fa-sun-o" aria-hidden="true"></i></th>
+                     <th id="simple-icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></th>
+                   </tr>
+                   <tr>
+                     <th id="simple-text"><p>5</p></th>
+                     <th id="simple-text"><p>Auto</p></th>
+                     <th id="simple-text"><p>A/C</p></th>
+                     <th id="simple-text"><p>5</p></th>
+                   </tr>
+                 </tbody>
+               </table>
+             </div>
+             <div class="col-sm-2" id="car-text-part">
+               <a class="waves-effect waves-light btn">Order</a>
+               <p id="car-text-part">Rm 10.00/Hour</p>
+               <p id="car-text-part">Rm 80.00/Day</p>
+             </div>
+             <div class="col-sm-2" id="side-part2">
+               <p id="car-part-car-name">Perodua Myvi </p>
+               <img src="images/myvi.png" id="car-id-name"/>
+               <table id="icon-group">
+                 <tbody>
+                   <tr>
+                     <th id="simple-icon"><i class="fa fa-user" aria-hidden="true"></i></th>
+                     <th id="simple-icon"><i class="fa fa-car" aria-hidden="true"></i></th>
+                     <th id="simple-icon"><i class="fa fa-sun-o" aria-hidden="true"></i></th>
+                     <th id="simple-icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></th>
+                   </tr>
+                   <tr>
+                     <th id="simple-text"><p>5</p></th>
+                     <th id="simple-text"><p>Auto</p></th>
+                     <th id="simple-text"><p>A/C</p></th>
+                     <th id="simple-text"><p>5</p></th>
+                   </tr>
+                 </tbody>
+               </table>
+             </div>
+             <div class="col-sm-2" id="car-text-part1">
+               <a class="waves-effect waves-light btn">Order</a>
+               <p id="car-text-part">Rm 10.00/Hour</p>
+               <p id="car-text-part">Rm 80.00/Day</p>
+             </div>
+           </div>
+
+
+           <div class="col-sm-12" id="button-group">
+             <div class="col-sm-6">
+                <p id="see-more-car1">See More Cars</p>
+             </div>
+             <div class="col-sm-6">
+                <p id="cancle-more-car">Cancle</p>
+             </div>
+           </div>
+         </div>
+       </div>
+     </section>       <!-- end car part search -->
+
+     <section id="second-menu-bar">
+       <button id="side-menu-singup" class="side-menu-singup">
+          <i class="fa fa-bars side-menu-bar"></i>
+      </button>
+      <button id="side-menu-singup1" class="side-menu-singup1">
+        <p id="croos-button">X</p>
+     </button>
+     </section>
+
+     <section id="side-menu">
+       <ul>
+         <li id="sub-menu-box">
+             <a id="car-name1" href="#logo-part">Home</a>
+         </li>
+         <li id="sub-menu-box">
+             <a id="car-name1" href="#car-part">Cars</a>
+         </li>
+         <li id="sub-menu-box">
+             <a id="car-name1" href="#car-offer">Special Offer</a>
+         </li>
+         <li id="sub-menu-box">
+             <a id="car-name1" href="#car-delar">Car Delar</a>
+         </li>
+         <li id="sub-menu-box">
+             <a id="car-name1" href="#support-hot">Contact Us</a>
+         </li>
+       </ul>
+     </section>
+
+     <section id="menu">
+       <ul>
+         <ul id="logo-part">
+           <li><img src="{% static 'images/logo.png' %}" id="logo-img"></li>
+         </ul>
+         <ul id="menu-part">
+           <li><a href="#support-hot">Contact Us</a></li>
+           <li><a href="#car-delar">Car Delar</a></li>
+           <li><a href="#car-offer">Special Offer</a></li>
+           <li><a href="#car-part">Cars</a></li>
+           <li><a href="#logo-part">Home</a></li>
+         </ul>
+       </ul>
+     </section>
+
+     <section>
+     </section>
+     <section id="search-tabel" class="wow fadeInLeft">  <!-- begin web search table -->
+        <table id="first-table">
+         <tbody>
+              <tr id="tabel-box">
+                  <td>
+                    <p id="tabel-titel">Car Rental</p>
+                  </td>
+              </tr>
+            <form method="post">
+                {% csrf_token %}
+                <input type='hidden' name='csrfmiddlewaretoken' value='6zGS2iNKKRRkFfH6xWZYGzjtxg0oBSHI8Bv9JBXiVv9qreHXcKBRhtCoPFoY161f' />
+
+                <!-- begin google map -->
+                  <tr>
+                      <td>
+                          <p>
+                              <div class="geoposition-widget" data-map-widget-height="300" data-map-options="{&quot;minZoom&quot;: 10, &quot;maxZoom&quot;: 17, &quot;center&quot;: {&quot;lat&quot;: 2.921318, &quot;lng&quot;: 101.65593490000003}}" data-marker-options="{&quot;cursor&quot;: &quot;move&quot;}">
+                              </div>
+                          </p>
+                      </td>
+                  </tr>
+                  <!-- end google map -->
+
+                  <tr>
+                      <td>
+                        <label id="input-name"><b>Choose Car Model</b></label><br />
+                        <select class="form-control DCarModel" id="full-input1">
+                            <option value="" selected>---------</option>
+                            <option value="Perodua Myvi">Perodua Myvi</option>
+                            <option value="Perodua Alza">Perodua Alza</option>
+                            <option value="Perodua Axia">Perodua Axia</option>
+                            <option value="Honda City">Honda City</option>
+                            <option value="Honda Civic">Honda Civic</option>
+                            <option value="Hyundai Sonata">Hyundai Sonata</option>
+                        </select>
+                      </td>
+                  </tr>
+                  <tr>
+                     <td><button class="DSubmitSearch" id="full-button" ><a>Submit</a></button></td>
+                  </tr>
+              </form>
+          </tbody>
+        </table>
+     </section>     <!-- end web search table -->
+
+     <section id="search-tabel1">   <!-- begin mobile search table -->
+       <table id="first-table">
+         <tbody>
+           <tr id="tabel-box">
+             <td>
+               <p id="tabel-titel">Car Rental</p>
+             </td>
+           </tr>
+
+           <!-- Begin google map(phone) -->
+           <tr>
+              <td>
+                  <p>
+                      <div class="geoposition-widget" data-map-widget-height="300" data-map-options="{&quot;minZoom&quot;: 15, &quot;maxZoom&quot;: 17, &quot;center&quot;: {&quot;lat&quot;: 2.922, &quot;lng&quot;: 101.63932420000003}}" data-marker-options="{&quot;cursor&quot;: &quot;move&quot;}">
+                      </div>
+                  </p>
+              </td>
+           </tr>
+           <!-- end google map(phone) -->
+
+           <tr>
+             <td><label id="input-name"><b>Choose Car Model</b></label><br />
+               <select class="form-control DCarModel2" id="full-input1-mobile">
+                  <option value="" selected>---------</option>
+                  <option value="Perodua Myvi">Perodua Myvi</option>
+                  <option value="Perodua Alza">Perodua Alza</option>
+                  <option value="Perodua Axia">Perodua Axia</option>
+                  <option value="Honda City">Honda City</option>
+                  <option value="Honda Civic">Honda Civic</option>
+                  <option value="Hyundai Sonata">Hyundai Sonata</option>
+               </select>
+             </td>
+           </tr>
+           <tr>
+             <td><button class="DSubmitSearch" id="full-button1">Submit</button></td>
+           </tr>
+         </tbody>
+       </table>
+     </section>     <!-- end mobile search table -->
+
+    <section id="header">
+    </section>
+    <section id="car-part">   <!-- begin of show all car -->
+      <div class="container-fluid">
+        <div class="row">
+         <p id="car-choose-title" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+           Choose your car
+         </p>
+          <div class="col-sm-12 DSmallCar"> <!-- begin small car section -->
+            {% for obj in SmallCar %}
+            <div class="col-sm-2" id="side-part2">
+              <p id="car-part-car-name" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s"> {{ obj.model }} </p>
+              {% if obj.image %}
+              <img src="{{ obj.image.url }}" id="car-id-name" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s"/>
+              {% else %}
+              <img src="" id="car-id-name" alt="image missing" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s"/>
+              {% endif %}
+              <table id="icon-group" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".8s">
+                <tbody>
+                  <tr>
+                    <th id="simple-icon"><i class="fa fa-user" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-car" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-sun-o" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></th>
+                  </tr>
+                  <tr>
+                    <th id="simple-text"><p>5</p></th>
+                    <th id="simple-text"><p>Auto</p></th>
+                    <th id="simple-text"><p>A/C</p></th>
+                    <th id="simple-text"><p>5</p></th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-2 wow fadeIn" id="car-text-part" data-wow-duration="1s" data-wow-delay=".2s">
+              <a class="waves-effect waves-light btn" href="/car/{{obj.id}}">Order</a>
+              <p id="car-text-part">Rm {{ obj.per_hour }}/Hour</p>
+              <p id="car-text-part">Rm {{ obj.per_day }}/Day</p>
+
+            </div>
+            {% empty %}
+            nai kicu small car
+            {% endfor %}
+          </div>    <!-- end small car section -->
+
+          <div class="col-sm-12">   <!-- begin big car section -->
+            {% for obj in leargeCar %}
+            <div class="col-sm-2" id="side-part2">
+              <p id="car-part-car-name" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">{{ obj.model }} </p>
+              {% if obj.image %}
+                <img src="{{ obj.image.url }}" id="car-id-name" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s"/>
+              {% else %}
+                <img src="" id="car-id-name" alt="image missing" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s"/>
+              {% endif %}
+              <table id="icon-group" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".8s">
+                <tbody>
+                  <tr>
+                    <th id="simple-icon"><i class="fa fa-user" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-car" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-sun-o" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></th>
+                  </tr>
+                  <tr>
+                    <th id="simple-text"><p>5</p></th>
+                    <th id="simple-text"><p>Auto</p></th>
+                    <th id="simple-text"><p>A/C</p></th>
+                    <th id="simple-text"><p>5</p></th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-2 wow fadeIn" id="car-text-part" data-wow-duration="1s" data-wow-delay="1s">
+              <a class="waves-effect waves-light btn" href="/car/{{obj.id}}">Order</a>
+              <p id="car-text-part">Rm 10.00/Hour</p>
+              <p id="car-text-part">Rm 80.00/Day</p>
+            </div>
+            {% empty %}
+            nai kicu big car
+            {% endfor %}
+          </div>    <!-- end big car section -->
+
+
+
+
+
+
+        </div>
+      </div>
+    </section>    <!-- end of show all car -->
+
+    <section id="car-offer">    <!-- begin of car offer -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <p id="offer-title" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Latest Offers</p>
+            {% for obj in OfferCar %}
+            <div class="col-sm-3" id="offer-body">
+              <img src="{{ obj.image.url }}" id="offer-img" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".4s"/>
+              <p id="offer-car-name" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">{{ obj.model }}</p>
+              <table id="icon-group" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".8s">
+                <tbody>
+                  <tr>
+                    <th id="simple-icon"><i class="fa fa-user" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-car" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-sun-o" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></th>
+                  </tr>
+                  <tr>
+                    <th id="simple-text"><p>5</p></th>
+                    <th id="simple-text"><p>Auto</p></th>
+                    <th id="simple-text"><p>A/C</p></th>
+                    <th id="simple-text"><p>5</p></th>
+                  </tr>
+                </tbody>
+              </table>
+              <p id="offer-text-body" class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">RM <a id="old-price">{{ obj.per_hour }}</a><a id="new-price">{{ obj.SpacialDiscount }}</a>/DAY</p>
+              <p class="offer-order-button wow fadeIn" data-wow-duration="1s" data-wow-delay="1s"><a href="/car/{{obj.id}}" id="offer-order-link">Order</a></p>
+            </div>
+            {% empty %}
+               <div class="col-sm-3" id="offer-body">
+                <img src="{{ obj.image.url }}" id="offer-img"/>
+                <p id="offer-car-name">{{ obj.model }}</p>
+                <table id="icon-group">
+                  <tbody>
+                    <tr>
+                        <h5>No Car For Offer</h5>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </section>    <!-- end of car offer -->
+
+    <section id="car-delar">    <!-- begin of car dealer -->
+       <div class="container-fluid">
+         <div class="row">
+           <p id="car-delar-titel" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+             Car Dealer List
+           </p>
+           <div class="col-sm-12">
+           {% for obj in Owners %}
+             <div class="col-sm-3 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+              {% if obj.image %}
+               <img src="{{ obj.image.url }}" id="delae-img" />
+              {% else %}
+              <img src="" id="delae-img" alt="Image Not Found"/>
+             {% endif %}
+             </div>
+             <div class="col-sm-3 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" id="address-phn">
+
+               <table>
+                 <tbody>
+                   <tr>
+                     <p id="delar-name">{{ obj.name }}</p>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+                     <td id="delar-address">{{ obj.address }}</td>
+                  </tr>
+                  <tr>
+                     <td id="list-id"><i class="fa fa-envelope " aria-hidden="true"></i></td>
+                     <td id="delar-address">{{ obj.email }}</td>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-mobile " aria-hidden="true"></i></td>
+                     <td id="delar-address">{{ obj.number }}</td>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-whatsapp " aria-hidden="true"></i></td>
+                     <td id="delar-address">{{ obj.whatsAppN }}</td>
+                   </tr>
+                   <tr>
+                     <td>
+
+                     </td>
+                      <td>
+                        <button id="delar-button">Contact</button>
+                      </td>
+                   </tr>
+                 </tbody>
+               </table>
+             </div>
+             {% endfor %}
+          </div>
+
+
+
+
+         </div>
+       </div>
+    </section>    <!-- end of car dealer -->
+{% endblock %}
