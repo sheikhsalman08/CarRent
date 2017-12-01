@@ -147,6 +147,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'CarRent','static'),
+    # '/home/vaidroad/getcarrent.vaidroad.com/SocialFollowerEnv/lib/python3.5/site-packages/django/contrib/admin/static',
     )
 
 MEDIA_URL = "/media/"
