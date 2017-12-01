@@ -11,8 +11,13 @@
     <!-- search with ajax static file begin -->
       <script type="text/javascript" src="{% static 'js/search.js' %}"></script>
     <!-- search with ajax static file end -->
+<<<<<<< HEAD
 
      <section id="car-part-search" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">   <!-- begin car part search -->
+=======
+    
+     <section id="car-part-search">   <!-- begin car part search -->
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
        <div class="container-fluid">
          <div class="row">
            <p id="search-result">
@@ -158,7 +163,11 @@
 
      <section>
      </section>
+<<<<<<< HEAD
      <section id="search-tabel" class="wow fadeInLeft">  <!-- begin web search table -->
+=======
+     <section id="search-tabel">  <!-- begin web search table -->
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
         <table id="first-table">
          <tbody>
               <tr id="tabel-box">
@@ -174,7 +183,11 @@
                   <tr>
                       <td>
                           <p>
+<<<<<<< HEAD
                               <div class="geoposition-widget" data-map-widget-height="300" data-map-options="{&quot;minZoom&quot;: 10, &quot;maxZoom&quot;: 17, &quot;center&quot;: {&quot;lat&quot;: 2.921318, &quot;lng&quot;: 101.65593490000003}}" data-marker-options="{&quot;cursor&quot;: &quot;move&quot;}">
+=======
+                              <div class="geoposition-widget" data-map-widget-height="300" data-map-options="{&quot;minZoom&quot;: 15, &quot;maxZoom&quot;: 17, &quot;center&quot;: {&quot;lat&quot;: 2.922, &quot;lng&quot;: 101.63932420000003}}" data-marker-options="{&quot;cursor&quot;: &quot;move&quot;}">
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
                               </div>
                           </p>
                       </td>
@@ -248,12 +261,17 @@
     <section id="car-part">   <!-- begin of show all car -->
       <div class="container-fluid">
         <div class="row">
+<<<<<<< HEAD
          <p id="car-choose-title" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+=======
+         <p id="car-choose-title">
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
            Choose your car
          </p>
           <div class="col-sm-12 DSmallCar"> <!-- begin small car section -->
             {% for obj in SmallCar %}
             <div class="col-sm-2" id="side-part2">
+<<<<<<< HEAD
               <p id="car-part-car-name" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s"> {{ obj.model }} </p>
               {% if obj.image %}
               <img src="{{ obj.image.url }}" id="car-id-name" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s"/>
@@ -261,6 +279,15 @@
               <img src="" id="car-id-name" alt="image missing" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s"/>
               {% endif %}
               <table id="icon-group" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".8s">
+=======
+              <p id="car-part-car-name"> {{ obj.model }} </p>
+              {% if obj.image %}
+              <img src="{{ obj.image.url }}" id="car-id-name"/>
+              {% else %}
+              <img src="" id="car-id-name" alt="image missing"/>
+              {% endif %}
+              <table id="icon-group">
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
                 <tbody>
                   <tr>
                     <th id="simple-icon"><i class="fa fa-user" aria-hidden="true"></i></th>
@@ -277,7 +304,11 @@
                 </tbody>
               </table>
             </div>
+<<<<<<< HEAD
             <div class="col-sm-2 wow fadeIn" id="car-text-part" data-wow-duration="1s" data-wow-delay=".2s">
+=======
+            <div class="col-sm-2" id="car-text-part">
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
               <a class="waves-effect waves-light btn" href="/car/{{obj.id}}">Order</a>
               <p id="car-text-part">Rm {{ obj.per_hour }}/Hour</p>
               <p id="car-text-part">Rm {{ obj.per_day }}/Day</p>
@@ -291,6 +322,7 @@
           <div class="col-sm-12">   <!-- begin big car section -->
             {% for obj in leargeCar %}
             <div class="col-sm-2" id="side-part2">
+<<<<<<< HEAD
               <p id="car-part-car-name" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">{{ obj.model }} </p>
               {% if obj.image %}
                 <img src="{{ obj.image.url }}" id="car-id-name" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s"/>
@@ -298,6 +330,15 @@
                 <img src="" id="car-id-name" alt="image missing" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s"/>
               {% endif %}
               <table id="icon-group" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".8s">
+=======
+              <p id="car-part-car-name">{{ obj.model }} </p>
+              {% if obj.image %}
+                <img src="{{ obj.image.url }}" id="car-id-name"/>
+              {% else %}
+                <img src="" id="car-id-name" alt="image missing"/>
+              {% endif %}
+              <table id="icon-group">
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
                 <tbody>
                   <tr>
                     <th id="simple-icon"><i class="fa fa-user" aria-hidden="true"></i></th>
@@ -314,7 +355,11 @@
                 </tbody>
               </table>
             </div>
+<<<<<<< HEAD
             <div class="col-sm-2 wow fadeIn" id="car-text-part" data-wow-duration="1s" data-wow-delay="1s">
+=======
+            <div class="col-sm-2" id="car-text-part">
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
               <a class="waves-effect waves-light btn" href="/car/{{obj.id}}">Order</a>
               <p id="car-text-part">Rm 10.00/Hour</p>
               <p id="car-text-part">Rm 80.00/Day</p>
@@ -324,9 +369,170 @@
             {% endfor %}
           </div>    <!-- end big car section -->
 
+<<<<<<< HEAD
 
 
 
+=======
+          <div class="col-sm-12 car-part-hidden">
+            <div class="col-sm-2">
+              <p id="car-part-car-name">Perodua Myvi </p>
+              <img src="images/myvi.png" id="car-id-name"/>
+              <table id="icon-group">
+                <tbody>
+                  <tr>
+                    <th id="simple-icon"><i class="fa fa-user" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-car" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-sun-o" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></th>
+                  </tr>
+                  <tr>
+                    <th id="simple-text"><p>5</p></th>
+                    <th id="simple-text"><p>Auto</p></th>
+                    <th id="simple-text"><p>A/C</p></th>
+                    <th id="simple-text"><p>5</p></th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-2" id="car-text-part">
+              <a class="waves-effect waves-light btn" href="order.html">Order</a>
+              <p id="car-text-part">Rm 10.00/Hour</p>
+              <p id="car-text-part">Rm 80.00/Day</p>
+            </div>
+            <div class="col-sm-2" id="side-part2">
+              <p id="car-part-car-name">Perodua Myvi </p>
+              <img src="images/myvi.png" id="car-id-name"/>
+              <table id="icon-group">
+                <tbody>
+                  <tr>
+                    <th id="simple-icon"><i class="fa fa-user" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-car" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-sun-o" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></th>
+                  </tr>
+                  <tr>
+                    <th id="simple-text"><p>5</p></th>
+                    <th id="simple-text"><p>Auto</p></th>
+                    <th id="simple-text"><p>A/C</p></th>
+                    <th id="simple-text"><p>5</p></th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-2" id="car-text-part">
+              <a class="waves-effect waves-light btn" href="order.html">Order</a>
+              <p id="car-text-part">Rm 10.00/Hour</p>
+              <p id="car-text-part">Rm 80.00/Day</p>
+            </div>
+            <div class="col-sm-2" id="side-part2">
+              <p id="car-part-car-name">Perodua Myvi </p>
+              <img src="images/myvi.png" id="car-id-name"/>
+              <table id="icon-group">
+                <tbody>
+                  <tr>
+                    <th id="simple-icon"><i class="fa fa-user" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-car" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-sun-o" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></th>
+                  </tr>
+                  <tr>
+                    <th id="simple-text"><p>5</p></th>
+                    <th id="simple-text"><p>Auto</p></th>
+                    <th id="simple-text"><p>A/C</p></th>
+                    <th id="simple-text"><p>5</p></th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-2" id="car-text-part1">
+              <a class="waves-effect waves-light btn" href="order.html">Order</a>
+              <p id="car-text-part">Rm 10.00/Hour</p>
+              <p id="car-text-part">Rm 80.00/Day</p>
+            </div>
+          </div>
+
+          <div class="col-sm-12 car-part-hidden">
+            <div class="col-sm-2">
+              <p id="car-part-car-name">Perodua Myvi </p>
+              <img src="images/myvi.png" id="car-id-name"/>
+              <table id="icon-group">
+                <tbody>
+                  <tr>
+                    <th id="simple-icon"><i class="fa fa-user" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-car" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-sun-o" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></th>
+                  </tr>
+                  <tr>
+                    <th id="simple-text"><p>5</p></th>
+                    <th id="simple-text"><p>Auto</p></th>
+                    <th id="simple-text"><p>A/C</p></th>
+                    <th id="simple-text"><p>5</p></th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-2" id="car-text-part">
+              <a class="waves-effect waves-light btn" href="order.html">Order</a>
+              <p id="car-text-part">Rm 10.00/Hour</p>
+              <p id="car-text-part">Rm 80.00/Day</p>
+            </div>
+            <div class="col-sm-2" id="side-part2">
+              <p id="car-part-car-name">Perodua Myvi </p>
+              <img src="images/myvi.png" id="car-id-name"/>
+              <table id="icon-group">
+                <tbody>
+                  <tr>
+                    <th id="simple-icon"><i class="fa fa-user" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-car" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-sun-o" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></th>
+                  </tr>
+                  <tr>
+                    <th id="simple-text"><p>5</p></th>
+                    <th id="simple-text"><p>Auto</p></th>
+                    <th id="simple-text"><p>A/C</p></th>
+                    <th id="simple-text"><p>5</p></th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-2" id="car-text-part">
+              <a class="waves-effect waves-light btn" href="order.html">Order</a>
+              <p id="car-text-part">Rm 10.00/Hour</p>
+              <p id="car-text-part">Rm 80.00/Day</p>
+            </div>
+            <div class="col-sm-2" id="side-part2">
+              <p id="car-part-car-name">Perodua Myvi </p>
+              <img src="images/myvi.png" id="car-id-name"/>
+              <table id="icon-group">
+                <tbody>
+                  <tr>
+                    <th id="simple-icon"><i class="fa fa-user" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-car" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-sun-o" aria-hidden="true"></i></th>
+                    <th id="simple-icon"><i class="fa fa-thumbs-up" aria-hidden="true"></i></th>
+                  </tr>
+                  <tr>
+                    <th id="simple-text"><p>5</p></th>
+                    <th id="simple-text"><p>Auto</p></th>
+                    <th id="simple-text"><p>A/C</p></th>
+                    <th id="simple-text"><p>5</p></th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-sm-2" id="car-text-part1">
+              <a class="waves-effect waves-light btn" href="order.html">Order</a>
+              <p id="car-text-part">Rm 10.00/Hour</p>
+              <p id="car-text-part">Rm 80.00/Day</p>
+            </div>
+          </div>
+
+
+         <a id="see-more-car">See More Cars</a>
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
 
 
         </div>
@@ -337,12 +543,21 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12">
+<<<<<<< HEAD
             <p id="offer-title" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Latest Offers</p>
             {% for obj in OfferCar %}
             <div class="col-sm-3" id="offer-body">
               <img src="{{ obj.image.url }}" id="offer-img" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".4s"/>
               <p id="offer-car-name" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">{{ obj.model }}</p>
               <table id="icon-group" class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".8s">
+=======
+            <p id="offer-title">Latest Offers</p>
+            {% for obj in OfferCar %}
+            <div class="col-sm-3" id="offer-body">
+              <img src="{{ obj.image.url }}" id="offer-img"/>
+              <p id="offer-car-name">{{ obj.model }}</p>
+              <table id="icon-group">
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
                 <tbody>
                   <tr>
                     <th id="simple-icon"><i class="fa fa-user" aria-hidden="true"></i></th>
@@ -358,8 +573,13 @@
                   </tr>
                 </tbody>
               </table>
+<<<<<<< HEAD
               <p id="offer-text-body" class="wow fadeIn" data-wow-duration="1s" data-wow-delay="1s">RM <a id="old-price">{{ obj.per_hour }}</a><a id="new-price">{{ obj.SpacialDiscount }}</a>/DAY</p>
               <p class="offer-order-button wow fadeIn" data-wow-duration="1s" data-wow-delay="1s"><a href="/car/{{obj.id}}" id="offer-order-link">Order</a></p>
+=======
+              <p id="offer-text-body">RM <a id="old-price">{{ obj.per_hour }}</a><a id="new-price">{{ obj.SpacialDiscount }}</a>/DAY</p>
+              <p class="offer-order-button"><a href="/car/{{obj.id}}" id="offer-order-link">Order</a></p>
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
             </div>
             {% empty %}
                <div class="col-sm-3" id="offer-body">
@@ -382,20 +602,33 @@
     <section id="car-delar">    <!-- begin of car dealer -->
        <div class="container-fluid">
          <div class="row">
+<<<<<<< HEAD
            <p id="car-delar-titel" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+=======
+           <p id="car-delar-titel">
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
              Car Dealer List
            </p>
            <div class="col-sm-12">
            {% for obj in Owners %}
+<<<<<<< HEAD
              <div class="col-sm-3 wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">
+=======
+             <div class="col-sm-3">
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
               {% if obj.image %}
                <img src="{{ obj.image.url }}" id="delae-img" />
               {% else %}
               <img src="" id="delae-img" alt="Image Not Found"/>
              {% endif %}
              </div>
+<<<<<<< HEAD
              <div class="col-sm-3 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".4s" id="address-phn">
 
+=======
+             <div class="col-sm-3" id="address-phn">
+             
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
                <table>
                  <tbody>
                    <tr>
@@ -431,10 +664,356 @@
              {% endfor %}
           </div>
 
+<<<<<<< HEAD
 
+=======
+          <div class="col-sm-12">
+             <div class="col-sm-3">
+               <img src="images/person1.jpeg" id="delae-img" />
+               
+             </div>
+             <div class="col-sm-3" id="address-phn">
+             
+               <table>
+                 <tbody>
+                   <tr>
+                     <p id="delar-name">Robert Smith</p>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+                     <td id="delar-address">The Arc, Cyberjaya, Malaysia</td>
+                  </tr>
+                  <tr>
+                     <td id="list-id"><i class="fa fa-envelope " aria-hidden="true"></i></td>
+                     <td id="delar-address">Robartsmith@gmail.com</td>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-mobile " aria-hidden="true"></i></td>
+                     <td id="delar-address">(+60)1205437</td>
+                   </tr>
+                   <tr>
+                     <td>
+
+                     </td>
+                      <td>
+                        <button id="delar-button">Contact</button>
+                      </td>
+                   </tr>
+                 </tbody>
+               </table>
+             </div>
+             <div class="col-sm-3">
+               <img src="images/person1.jpeg" id="delae-img" />
+               
+             </div>
+             <div class="col-sm-3" id="address-phn">
+             
+               <table>
+                 <tbody>
+                   <tr>
+                     <p id="delar-name">Robert Smith</p>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+                     <td id="delar-address">The Arc, Cyberjaya, Malaysia</td>
+                  </tr>
+                  <tr>
+                     <td id="list-id"><i class="fa fa-envelope " aria-hidden="true"></i></td>
+                     <td id="delar-address">Robartsmith@gmail.com</td>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-mobile " aria-hidden="true"></i></td>
+                     <td id="delar-address">(+60)1205437</td>
+                   </tr>
+                   <tr>
+                     <td>
+
+                     </td>
+                      <td>
+                        <button id="delar-button">Contact</button>
+                      </td>
+                   </tr>
+                 </tbody>
+               </table>
+             </div>
+           </div>
+           <div class="col-sm-12">
+             <div class="col-sm-3">
+             
+               <img src="images/person1.jpeg" id="delae-img" />
+             </div>
+             <div class="col-sm-3" id="address-phn">
+               <table>
+               
+                 <tbody>
+                   <tr>
+                     <p id="delar-name">Robert Smith</p>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+                     <td id="delar-address">The Arc, Cyberjaya, Malaysia</td>
+                  </tr>
+                  <tr>
+                     <td id="list-id"><i class="fa fa-envelope " aria-hidden="true"></i></td>
+                     <td id="delar-address">Robartsmith@gmail.com</td>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-mobile " aria-hidden="true"></i></td>
+                     <td id="delar-address">(+60)1205437</td>
+                   </tr>
+                   <tr>
+                     <td>
+
+                     </td>
+                      <td>
+                        <button id="delar-button">Contact</button>
+                      </td>
+                   </tr>
+                 </tbody>
+               </table>
+             </div>
+             <div class="col-sm-3">
+             
+               <img src="images/person1.jpeg" id="delae-img" />
+             </div>
+             <div class="col-sm-3" id="address-phn">
+             
+               <table>
+                 <tbody>
+                   <tr>
+                     <p id="delar-name">Robert Smith</p>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+                     <td id="delar-address">The Arc, Cyberjaya, Malaysia</td>
+                  </tr>
+                  <tr>
+                     <td id="list-id"><i class="fa fa-envelope " aria-hidden="true"></i></td>
+                     <td id="delar-address">Robartsmith@gmail.com</td>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-mobile " aria-hidden="true"></i></td>
+                     <td id="delar-address">(+60)1205437</td>
+                   </tr>
+                   <tr>
+                     <td>
+
+                     </td>
+                      <td>
+                        <button id="delar-button">Contact</button>
+                      </td>
+                   </tr>
+                 </tbody>
+               </table>
+             </div>
+           </div>
+           <div class="col-sm-12 delar-hide">
+             <div class="col-sm-3">
+               <img src="images/person1.jpeg" id="delae-img" />
+             </div>
+             <div class="col-sm-3" id="address-phn">
+               <table>
+                 <tbody>
+                   <tr>
+                     <p id="delar-name">Robert Smith</p>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+                     <td id="delar-address">The Arc, Cyberjaya, Malaysia</td>
+                  </tr>
+                  <tr>
+                     <td id="list-id"><i class="fa fa-envelope " aria-hidden="true"></i></td>
+                     <td id="delar-address">Robartsmith@gmail.com</td>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-mobile " aria-hidden="true"></i></td>
+                     <td id="delar-address">(+60)1205437</td>
+                   </tr>
+                   <tr>
+                     <td>
+
+                     </td>
+                      <td>
+                        <button id="delar-button">Contact</button>
+                      </td>
+                   </tr>
+                 </tbody>
+               </table>
+             </div>
+             <div class="col-sm-3">
+               <img src="images/person1.jpeg" id="delae-img" />
+             </div>
+             <div class="col-sm-3" id="address-phn">
+               <table>
+                 <tbody>
+                   <tr>
+                     <p id="delar-name">Robert Smith</p>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+                     <td id="delar-address">The Arc, Cyberjaya, Malaysia</td>
+                  </tr>
+                  <tr>
+                     <td id="list-id"><i class="fa fa-envelope " aria-hidden="true"></i></td>
+                     <td id="delar-address">Robartsmith@gmail.com</td>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-mobile " aria-hidden="true"></i></td>
+                     <td id="delar-address">(+60)1205437</td>
+                   </tr>
+                   <tr>
+                     <td>
+
+                     </td>
+                      <td>
+                        <button id="delar-button">Contact</button>
+                      </td>
+                   </tr>
+                 </tbody>
+               </table>
+             </div>
+           </div>
+           <div class="col-sm-12 delar-hide" >
+             <div class="col-sm-3">
+               <img src="images/person1.jpeg" id="delae-img" />
+             </div>
+             <div class="col-sm-3" id="address-phn">
+               <table>
+                 <tbody>
+                   <tr>
+                     <p id="delar-name">Robert Smith</p>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+                     <td id="delar-address">The Arc, Cyberjaya, Malaysia</td>
+                  </tr>
+                  <tr>
+                     <td id="list-id"><i class="fa fa-envelope " aria-hidden="true"></i></td>
+                     <td id="delar-address">Robartsmith@gmail.com</td>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-mobile " aria-hidden="true"></i></td>
+                     <td id="delar-address">(+60)1205437</td>
+                   </tr>
+                   <tr>
+                     <td>
+
+                     </td>
+                      <td>
+                        <button id="delar-button">Contact</button>
+                      </td>
+                   </tr>
+                 </tbody>
+               </table>
+             </div>
+             <div class="col-sm-3">
+               <img src="images/person1.jpeg" id="delae-img" />
+             </div>
+             <div class="col-sm-3" id="address-phn">
+               <table>
+                 <tbody>
+                   <tr>
+                     <p id="delar-name">Robert Smith</p>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+                     <td id="delar-address">The Arc, Cyberjaya, Malaysia</td>
+                  </tr>
+                  <tr>
+                     <td id="list-id"><i class="fa fa-envelope " aria-hidden="true"></i></td>
+                     <td id="delar-address">Robartsmith@gmail.com</td>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-mobile " aria-hidden="true"></i></td>
+                     <td id="delar-address">(+60)1205437</td>
+                   </tr>
+                   <tr>
+                     <td>
+
+                     </td>
+                      <td>
+                        <button id="delar-button">Contact</button>
+                      </td>
+                   </tr>
+                 </tbody>
+               </table>
+             </div>
+           </div>
+           <div class="col-sm-12 delar-hide" >
+             <div class="col-sm-3">
+               <img src="images/person1.jpeg" id="delae-img" />
+             </div>
+             <div class="col-sm-3" id="address-phn">
+               <table>
+                 <tbody>
+                   <tr>
+                     <p id="delar-name">Robert Smith</p>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+                     <td id="delar-address">The Arc, Cyberjaya, Malaysia</td>
+                  </tr>
+                  <tr>
+                     <td id="list-id"><i class="fa fa-envelope " aria-hidden="true"></i></td>
+                     <td id="delar-address">Robartsmith@gmail.com</td>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-mobile " aria-hidden="true"></i></td>
+                     <td id="delar-address">(+60)1205437</td>
+                   </tr>
+                   <tr>
+                     <td>
+
+                     </td>
+                      <td>
+                        <button id="delar-button">Contact</button>
+                      </td>
+                   </tr>
+                 </tbody>
+               </table>
+             </div>
+             <div class="col-sm-3">
+               <img src="images/person1.jpeg" id="delae-img" />
+             </div>
+             <div class="col-sm-3" id="address-phn">
+               <table>
+                 <tbody>
+                   <tr>
+                     <p id="delar-name">Robert Smith</p>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-map-marker" aria-hidden="true"></i></td>
+                     <td id="delar-address">The Arc, Cyberjaya, Malaysia</td>
+                  </tr>
+                  <tr>
+                     <td id="list-id"><i class="fa fa-envelope " aria-hidden="true"></i></td>
+                     <td id="delar-address">Robartsmith@gmail.com</td>
+                   </tr>
+                   <tr>
+                     <td id="list-id"><i class="fa fa-mobile " aria-hidden="true"></i></td>
+                     <td id="delar-address">(+60)1205437</td>
+                   </tr>
+                   <tr>
+                     <td>
+
+                     </td>
+                      <td>
+                        <button id="delar-button">Contact</button>
+                      </td>
+                   </tr>
+                 </tbody>
+               </table>
+             </div>
+           </div>
+           <a id="see-more-delar">See More Delar</a>
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
 
 
          </div>
        </div>
     </section>    <!-- end of car dealer -->
+<<<<<<< HEAD
 {% endblock %}
+=======
+{% endblock %}
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de

@@ -1,7 +1,10 @@
 $(document).ready(function(){
 
+<<<<<<< HEAD
   new WOW().init();
 
+=======
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
   $("#side-menu-singup").click(function(){
     $("#side-menu").animate({
   height: "toggle",
@@ -21,7 +24,11 @@ $(document).ready(function(){
          $("#side-menu-singup").css({"display": "initial", });
        })
 
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
   $('.form_datetime').datetimepicker({
       //language:  'fr',
       weekStart: 1,
@@ -104,4 +111,8 @@ $('.form_time').datetimepicker({
          });
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
 });

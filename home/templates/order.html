@@ -347,7 +347,11 @@
      <section id="side-menu">
        <ul>
          <li id="sub-menu-box">
+<<<<<<< HEAD
              <a id="car-name1" href="{% url 'home' %}">Home</a>
+=======
+             <a id="car-name1" href="index.html">Home</a>
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
          </li>
          <li id="sub-menu-box">
              <a id="car-name1" href="#car-part">Cars</a>
@@ -365,7 +369,11 @@
          <ul id="menu-part">
            <li><a href="#support-hot">Contact Us</a></li>
            <li><a href="#car-part">Cars</a></li>
+<<<<<<< HEAD
            <li><a href="{% url 'home' %}">Home</a></li>
+=======
+           <li><a href="index.html">Home</a></li>
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
          </ul>
        </ul>
      </section>
@@ -377,9 +385,14 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-sm-12">
+<<<<<<< HEAD
               <div class="col-sm-3 wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
                 <p id="car-part-car-name-order"> {{ car.model }} </p>
                 <br>
+=======
+              <div class="col-sm-3">
+                <p id="car-part-car-name-order"> {{ car.model }} </p>
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
                 <img src="{{ car.image.url }}" id="car-id-name-order"/>
                 <table id="icon-group-order">
                   <tbody>
@@ -398,6 +411,7 @@
                   </tbody>
                 </table>
               </div>
+<<<<<<< HEAD
               <div class="col-sm-3 wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s" id="car-text-part-order">
                 <p id="car-text-part-order">Rm {{car.per_hour}}/Hour</p>
                 <p id="car-text-part-order">Rm {{car.per_day}}/Day</p>
@@ -406,6 +420,16 @@
                <img src="{{car.owner.image.url}}" id="delae-img-order-page">
              </div>
              <div class="col-sm-3 wow fadeIn" data-wow-duration="1s" data-wow-delay="1.2s" id="address-phn-order-page">
+=======
+              <div class="col-sm-3" id="car-text-part-order">
+                <p id="car-text-part-order">Rm {{car.per_hour}}/Hour</p>
+                <p id="car-text-part-order">Rm {{car.per_day}}/Day</p>
+              </div>
+              <div class="col-sm-3">
+               <img src="{{car.owner.image.url}}" id="delae-img-order-page">
+             </div>
+             <div class="col-sm-3" id="address-phn-order-page">
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
                <table>
                  <tbody>
                    <tr>
@@ -449,12 +473,20 @@
       <section id="car-part">
         <div class="container-fluid">
           <div class="row">
+<<<<<<< HEAD
            <p id="car-choose-title" class="wow fadeInDown" data-wow-duration="1s" data-wow-delay=".3s">
+=======
+           <p id="car-choose-title">
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
              Choose your car
            </p>
             <div class="col-sm-12">
               {% for obj in OfferCar %}
+<<<<<<< HEAD
                 <div class="col-sm-2 wow fadeIn" data-wow-duration="1s" data-wow-delay=".4s">
+=======
+                <div class="col-sm-2">
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
                   <p id="car-part-car-name">Perodua Myvi </p>
                   <img src="{{ obj.image.url }}" id="car-id-name"/>
                   <table id="icon-group">
@@ -474,13 +506,20 @@
                     </tbody>
                   </table>
                 </div>
+<<<<<<< HEAD
                 <div class="col-sm-2 wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s" id="car-text-part">
+=======
+                <div class="col-sm-2" id="car-text-part">
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
                   <a class="waves-effect waves-light btn" href="order.html">Order</a>
                   <p id="car-text-part">Rm {{ obj.per_hour }}/Hour</p>
                   <p id="car-text-part">Rm {{ obj.per_day }}/Day</p>
                 </div>
+<<<<<<< HEAD
               {% empty %}
                 no offer car
+=======
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
               {% endfor %}
             </div>
 
@@ -516,9 +555,17 @@
               {% endfor %}
             </div>
             <!-- end hidden part -->
+<<<<<<< HEAD
+=======
+           <a id="see-more-car2">See More Cars</a>
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
 
 
           </div>
         </div>
       </section>
+<<<<<<< HEAD
 {% endblock %}
+=======
+{% endblock %}
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de

@@ -45,9 +45,15 @@ INSTALLED_APPS = [
 GEOPOSITION_GOOGLE_MAPS_API_KEY = 'AIzaSyDtfJYDxVYfzFCKw9VJfvV-w4FgsH7G-JM'
 
 GEOPOSITION_MAP_OPTIONS = {
+<<<<<<< HEAD
     'minZoom': 10,
     'maxZoom': 17,
     'center': {'lat': 2.921318, 'lng': 101.65593490000003}
+=======
+    'minZoom': 15,
+    'maxZoom': 17,
+    'center': {'lat': 2.922, 'lng': 101.63932420000003}
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
 }
 GEOPOSITION_MAP_WIDGET_HEIGHT  = '300'
 
@@ -147,7 +153,10 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'CarRent','static'),
+<<<<<<< HEAD
     # '/home/vaidroad/getcarrent.vaidroad.com/SocialFollowerEnv/lib/python3.5/site-packages/django/contrib/admin/static',
+=======
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
     )
 
 MEDIA_URL = "/media/"

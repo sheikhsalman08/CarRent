@@ -61,12 +61,19 @@ img#logo-img {
     Search tabel
 ********************************/
 #first-table {
+<<<<<<< HEAD
     width: 170% ;
+=======
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
     background-color: rgba(0, 0, 0, 0.88) !important;
 }
 section#search-tabel {
     position: absolute;
+<<<<<<< HEAD
     padding-top: 160px !important;
+=======
+    padding-top: 12% !important;
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
     padding-left: 10% !important;
     color: #fff;
 }
@@ -98,7 +105,11 @@ section#search-tabel {
     margin-left: 36px !important;
     height: 34px;
     margin-bottom: 20px !important;
+<<<<<<< HEAD
     width: 84%;
+=======
+    width: 138%;
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
     border: 0px ;
     border-bottom: 1px solid #a2a2a2 !important;
 }
@@ -141,7 +152,11 @@ p#tabel-titel {
   letter-spacing: 3px;
   text-transform: uppercase;
   margin-top: 20px !important;
+<<<<<<< HEAD
   margin-left: 7% !IMPORTANT;
+=======
+  margin-left: 13% !IMPORTANT;
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
   font-size: 27px;
   color: #fff;
   font-family: 'Kanit', sans-serif;
@@ -177,7 +192,11 @@ button#full-button {
     border-radius: 5px;
     border: 1px solid black;
     background-color: rgba(68, 70, 65, 0.6);
+<<<<<<< HEAD
     margin-left: 25% !important;
+=======
+    margin-left: 50% !important;
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
     width: 200px;
     height: 45px;
     font-size: 15px;
@@ -195,12 +214,20 @@ button#full-button a {
             search-part
 *****************************************/
 section#car-part-search {
+<<<<<<< HEAD
   margin-top: 15% !important;
       width: 100%;
   position: absolute;
   z-index: 2000;
   height: 600px;
   background-color: #fff;
+=======
+      width: 100%;
+  position: absolute;
+  z-index: 2000;
+  height: auto;
+  background-color: #e6e2e2;
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
 }
 #header-search{
   background-image: url('../images/back1.jpg');
@@ -222,7 +249,10 @@ p#search-result {
     margin-left: 46px !important;
 }
 #cancle-more-car {
+<<<<<<< HEAD
    margin-top: 80px !important;
+=======
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
     margin-right: 68% !IMPORTANT;
     letter-spacing: 2px;
     text-decoration: none;
@@ -507,7 +537,11 @@ p#car-part-car-name {
 #icon-group{
   margin-top: 3% !important;
     width: 45% !important;
+<<<<<<< HEAD
     margin-left: 8% !important;
+=======
+    margin-left: 15% !important;
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
 }
 a.waves-effect.waves-light.btn {
     width: 135px !important;
@@ -561,7 +595,10 @@ div#side-part2 {
   font-size: 20px;
 }
 #see-more-car1 {
+<<<<<<< HEAD
   margin-top: 80px !important;
+=======
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
   margin-bottom: 10px !important;
   margin-right: 15% !important;
   letter-spacing: 2px;
@@ -613,7 +650,10 @@ p#offer-car-name {
 }
 img#offer-img {
     width: 200px;
+<<<<<<< HEAD
     height: 150px;
+=======
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
 }
 p#offer-title {
   padding-left: 30px !important;
@@ -628,7 +668,11 @@ p#offer-title {
   padding-bottom: 20px !important;
 }
 p#car-delar-titel {
+<<<<<<< HEAD
 padding-left: 30px !important;
+=======
+padding-left: 30px !important;  
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
   letter-spacing: 3px;
 font-size: 35px !important;
 margin-left: 20px !important;
@@ -671,7 +715,11 @@ p#offer-text-body2 {
 }
 .offer-order-button {
     background-color: green;
+<<<<<<< HEAD
     margin-left: 8% !IMPORTANT;
+=======
+    margin-left: 18% !IMPORTANT;
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
     margin-top: 11% !important;
     text-decoration: none;
     color: white;
@@ -719,7 +767,10 @@ img#delae-img {
     padding-top: 17px !important;
 }
 div#address-phn {
+<<<<<<< HEAD
     padding-bottom: 60px !important;
+=======
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
     width: 22% !important;
     margin-left: 23px !important;
 }
@@ -803,7 +854,10 @@ p#footer-text {
 img#car-id-name {
     width: 200px;
     height: 127px;
+<<<<<<< HEAD
     margin-left: 10px !important;
+=======
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
 }
 a.waves-effect.waves-light.btn {
     background-color: #2e7b32;
@@ -1021,10 +1075,16 @@ padding-right: 15px !important;
   #icon-group {
   margin-top: 3% !important;
   width: 45% !important;
+<<<<<<< HEAD
   margin-left: 20% !important;
 }
 div#car-text-part {
     margin-top:-30px !important;
+=======
+  margin-left: 19% !important;
+}
+div#car-text-part {
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
     margin-left: 10px !important;
     width: 90%;
     height: 130px;
@@ -1047,13 +1107,22 @@ img#delae-img {
     margin-left: 10% !important;
   }
 div#address-phn {
+<<<<<<< HEAD
     margin-top: -60px !important;
+=======
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
       margin-left: 30px !important;
   }
   p#offer-title {
     letter-spacing: 3px;
+<<<<<<< HEAD
     font-size: 22px;
     margin-left: 6% !important;
+=======
+    font-size: 30px;
+    margin-left: 6% !important;
+    margin-top: 20% !important;
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
     width: 70%;
   }
   div#help-box {
@@ -1140,6 +1209,7 @@ div#car-text-part-order {
         width: 87% !important;
         margin-left: 20px !important;
     }
+<<<<<<< HEAD
 p#car-choose-title{
    margin-bottom: 100px !important;
 }
@@ -1192,4 +1262,6 @@ p#car-text-part {
 }
 .geoposition-address{
   display: none;
+=======
+>>>>>>> 8b40c4a130a9f43551be16d5611e2dd87d6aa4de
 }
